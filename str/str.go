@@ -5,8 +5,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/metaleap/go-util"
-	"github.com/metaleap/go-util/slice"
+	umisc "github.com/wangadong/go-util"
+	uslice "github.com/wangadong/go-util/slice"
 )
 
 type RuneCaser interface {

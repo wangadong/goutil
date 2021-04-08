@@ -8,9 +8,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/wangadong/fsnotify"
-
-	"github.com/metaleap/go-util/str"
+	"github.com/wangadong/go-util/fsnotify"
+	ustr "github.com/wangadong/go-util/str"
 )
 
 //	A convenient wrapper around `wangadong/fsnotify.Watcher`.

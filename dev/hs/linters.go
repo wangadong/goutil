@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/metaleap/go-util/dev"
-	"github.com/metaleap/go-util/run"
+	udev "github.com/wangadong/go-util/dev"
+	urun "github.com/wangadong/go-util/run"
 )
 
 type Hlint struct {

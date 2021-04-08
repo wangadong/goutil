@@ -5,14 +5,13 @@ import (
 	"path/filepath"
 	"strings"
 
+	umisc "github.com/wangadong/go-util"
+	udev "github.com/wangadong/go-util/dev"
+	ufs "github.com/wangadong/go-util/fs"
+	urun "github.com/wangadong/go-util/run"
+	uslice "github.com/wangadong/go-util/slice"
+	ustr "github.com/wangadong/go-util/str"
 	gurujson "golang.org/x/tools/cmd/guru/serial"
-
-	"github.com/metaleap/go-util"
-	"github.com/metaleap/go-util/dev"
-	"github.com/metaleap/go-util/fs"
-	"github.com/metaleap/go-util/run"
-	"github.com/metaleap/go-util/slice"
-	"github.com/metaleap/go-util/str"
 )
 
 type Gogetdoc struct {
