@@ -8,12 +8,12 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/go-forks/fsnotify"
+	"github.com/wangadong/fsnotify"
 
 	"github.com/metaleap/go-util/str"
 )
 
-//	A convenient wrapper around `go-forks/fsnotify.Watcher`.
+//	A convenient wrapper around `wangadong/fsnotify.Watcher`.
 //
 //	Usage:
 //		var w ufs.Watcher

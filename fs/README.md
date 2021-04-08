@@ -233,7 +233,7 @@ type Watcher struct {
 }
 ```
 
-A convenient wrapper around `go-forks/fsnotify.Watcher`.
+A convenient wrapper around `wangadong/fsnotify.Watcher`.
 
 **NOTE**: `godocdown` picked `watcher-sandboxed.go` shim instead of
 `watcher-default.go`: Refer to *actual* docs on `Watcher`.
