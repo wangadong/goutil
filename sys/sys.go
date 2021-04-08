@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strings"
 
-	ufs "github.com/wangadong/go-util/fs"
+	ufs "github.com/wangadong/goutil/fs"
 )
 
 var (

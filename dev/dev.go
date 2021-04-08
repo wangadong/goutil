@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"strings"
 
-	umisc "github.com/wangadong/go-util"
-	ufs "github.com/wangadong/go-util/fs"
-	urun "github.com/wangadong/go-util/run"
-	uslice "github.com/wangadong/go-util/slice"
-	ustr "github.com/wangadong/go-util/str"
+	umisc "github.com/wangadong/goutil"
+	ufs "github.com/wangadong/goutil/fs"
+	urun "github.com/wangadong/goutil/run"
+	uslice "github.com/wangadong/goutil/slice"
+	ustr "github.com/wangadong/goutil/str"
 )
 
 type SrcMsg struct {

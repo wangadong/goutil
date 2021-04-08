@@ -8,7 +8,7 @@ import (
 
 // wot
 
-	util "github.com/wangadong/go-util"
+	util "github.com/wangadong/goutil"
 )
 
 type AnyToAny func(src interface{}) interface{}

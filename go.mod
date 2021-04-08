@@ -1,4 +1,4 @@
-module github.com/wangadong/go-util
+module github.com/wangadong/goutil
 
 go 1.15
 

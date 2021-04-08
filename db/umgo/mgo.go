@@ -3,7 +3,7 @@ package umgo
 import (
 	"fmt"
 
-	ugo "github.com/wangadong/go-util/str"
+	ugo "github.com/wangadong/goutil/str"
 	"labix.org/v2/mgo"
 	"labix.org/v2/mgo/bson"
 )

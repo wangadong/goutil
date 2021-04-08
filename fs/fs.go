@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"strings"
 
-	uslice "github.com/wangadong/go-util/slice"
-	ustr "github.com/wangadong/go-util/str"
+	uslice "github.com/wangadong/goutil/slice"
+	ustr "github.com/wangadong/goutil/str"
 )
 
 //	Handles a file-system notification originating in a `Watcher`.

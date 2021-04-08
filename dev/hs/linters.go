@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	udev "github.com/wangadong/go-util/dev"
-	urun "github.com/wangadong/go-util/run"
+	udev "github.com/wangadong/goutil/dev"
+	urun "github.com/wangadong/goutil/run"
 )
 
 type Hlint struct {

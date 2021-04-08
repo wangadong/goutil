@@ -3,8 +3,8 @@ package udevgo
 import (
 	"strings"
 
-	udev "github.com/wangadong/go-util/dev"
-	ustr "github.com/wangadong/go-util/str"
+	udev "github.com/wangadong/goutil/dev"
+	ustr "github.com/wangadong/goutil/str"
 )
 
 var (

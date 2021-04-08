@@ -3,7 +3,7 @@ package u3d
 import (
 	"math"
 
-	unum "github.com/wangadong/go-util/num"
+	unum "github.com/wangadong/goutil/num"
 )
 
 type FrustumCoords struct {

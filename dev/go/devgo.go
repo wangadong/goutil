@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	ufs "github.com/wangadong/go-util/fs"
-	urun "github.com/wangadong/go-util/run"
-	uslice "github.com/wangadong/go-util/slice"
+	ufs "github.com/wangadong/goutil/fs"
+	urun "github.com/wangadong/goutil/run"
+	uslice "github.com/wangadong/goutil/slice"
 )
 
 var (
@@ -162,7 +162,7 @@ func GopathSrc(subDirNames ...string) (gps string) {
 }
 
 //	Returns the `path/filepath.Join`-ed full directory path for a specified `$GOPATH/src/github.com` sub-directory.
-//	Example: `util.GopathSrcGithub("go-util", "num")` yields `c:\gd\src\github.com\go-util\num` if `$GOPATH` is `c:\gd`.
+//	Example: `util.GopathSrcGithub("goutil", "num")` yields `c:\gd\src\github.com\goutil\num` if `$GOPATH` is `c:\gd`.
 func GopathSrcGithub(gitHubName string, subDirNames ...string) string {
 	return GopathSrc(append([]string{"github.com", gitHubName}, subDirNames...)...)
 }

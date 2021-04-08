@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	ufs "github.com/wangadong/go-util/fs"
+	ufs "github.com/wangadong/goutil/fs"
 )
 
 //	Returns the result of `os.Hostname` if any, else `localhost`.
